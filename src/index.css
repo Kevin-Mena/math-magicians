@@ -1,3 +1,69 @@
-h2 {
-  color: blue;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --orange-shade: hsl(30, 100%, 50%);
+  --light-grey: #d0d0d0;
+  --dark-blue-shade: #64748b;
+  --all-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+  --all-transition: all 0.3s linear;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+.container-div {
+  width: 100%;
+  height: 100vh;
+  background: #fff;
+}
+
+.wrapper {
+  background: var(--light-grey);
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+  flex-direction: column-reverse;
+  padding: 0.333rem;
+}
+
+.btn-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.screen {
+  height: 80px;
+  background: var(--dark-blue-shade);
+  color: #fff;
+  display: flex;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 6px;
+  font-size: 1.333rem;
+}
+
+.orange {
+  background: var(--orange-shade);
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 3px rgb(255, 255, 255);
+  text-align: center;
+}
+
+.lightgrey {
+  background: var(--light-grey);
+  height: 60px;
+  box-shadow: 0 1px 3px rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
