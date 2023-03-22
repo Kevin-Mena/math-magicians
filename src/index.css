@@ -63,11 +63,11 @@ body {
   border: none;
   font-weight: bold;
 }
-.orange:hover {
- box-shadow: none;
- border: 2px solid #000000;
- transition: var(--all-transition);
 
+.orange:hover {
+  box-shadow: none;
+  border: 2px solid #000;
+  transition: var(--all-transition);
 }
 
 .lightgrey {
@@ -81,8 +81,9 @@ body {
   border: none;
   font-weight: bold;
 }
+
 .lightgrey:hover {
   box-shadow: none;
-  border: 2px solid #000000;
+  border: 2px solid #000;
   transition: var(--all-transition);
 }
