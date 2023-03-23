@@ -15,7 +15,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.container-div {
+.container {
   width: 100%;
   height: auto;
   padding-top: 4rem;
@@ -25,7 +25,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  .container-div {
+  .container {
     display: grid;
     grid-template-columns: 1fr;
   }
