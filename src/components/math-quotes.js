@@ -18,7 +18,6 @@ const ShowRandomMathQuote = () => {
         setData(data);
       } catch (err) {
         setIsError(true);
-        console.log(err);
       }
       setIsLoading(false);
     };
