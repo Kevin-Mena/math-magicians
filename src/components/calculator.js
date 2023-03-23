@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 import DefaultValue from './DefaultValue';
+import Quotes from './math-quotes';
 
 const CalculatorApp = () => {
   const [result, setResult] = useState(0);
@@ -10,6 +11,7 @@ const CalculatorApp = () => {
   return (
     <div>
       <div className="container-div">
+        <Quotes />
         <div className="wrapper">
           <div className="screen">
             <DefaultValue result={result.next || result.total || '0'} />

@@ -17,8 +17,17 @@ body {
 
 .container-div {
   width: 100%;
-  height: 100vh;
+  height: auto;
   padding-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  transition: var(--all-transition);
+}
+@media (max-width: 768px) {
+  .container-div {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
 }
 
 .wrapper {
@@ -95,4 +104,23 @@ body {
   gap: 1rem;
   padding: 2px;
   padding-top: 1rem;
+}
+.quote-header {
+  color: #64748b;
+  margin-left: 1rem;
+  text-transform: capitalize;
+
+}
+.quote {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(105, 103, 103);
+}
+.author {
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1rem;
 }
