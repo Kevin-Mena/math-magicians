@@ -23,11 +23,12 @@ body {
   grid-template-columns: 1fr 2fr;
   transition: var(--all-transition);
 }
+
 @media (max-width: 768px) {
   .container-div {
-      display: grid;
-      grid-template-columns: 1fr;
-    }
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .wrapper {
@@ -37,7 +38,7 @@ body {
   margin: 0 auto;
   padding: 0.333rem;
   border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .btn-group {
@@ -97,6 +98,7 @@ body {
   border: 2px solid #000;
   transition: var(--all-transition);
 }
+
 .bottom {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
@@ -105,12 +107,13 @@ body {
   padding: 2px;
   padding-top: 1rem;
 }
+
 .quote-header {
   color: #64748b;
   margin-left: 1rem;
   text-transform: capitalize;
-
 }
+
 .quote {
   margin-left: 1rem;
   font-size: 2rem;
@@ -118,6 +121,7 @@ body {
   font-style: italic;
   color: rgb(105, 103, 103);
 }
+
 .author {
   font-style: normal;
   color: #000;
