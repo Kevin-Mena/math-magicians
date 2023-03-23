@@ -15,10 +15,20 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
-.container-div {
+.container {
   width: 100%;
-  height: 100vh;
-  background: #fff;
+  height: auto;
+  padding-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  transition: var(--all-transition);
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 .wrapper {
@@ -26,16 +36,17 @@ body {
   width: 400px;
   height: auto;
   margin: 0 auto;
-  flex-direction: column-reverse;
   padding: 0.333rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
 }
 
 .btn-group {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-  flex-direction: column;
   padding: 2px;
+  margin-top: 1rem;
 }
 
 .screen {
@@ -86,4 +97,34 @@ body {
   box-shadow: none;
   border: 2px solid #000;
   transition: var(--all-transition);
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  width: 100%;
+  gap: 1rem;
+  padding: 2px;
+  padding-top: 1rem;
+}
+
+.quote-header {
+  color: #64748b;
+  margin-left: 1rem;
+  text-transform: capitalize;
+}
+
+.quote {
+  margin-left: 1rem;
+  font-size: 2rem;
+  font-weight: 400;
+  font-style: italic;
+  color: rgb(105, 103, 103);
+}
+
+.author {
+  font-style: normal;
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1rem;
 }

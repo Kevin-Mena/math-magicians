@@ -111,6 +111,8 @@ const CalculatorApp = () => {
             <button className="btn orange" type="button" onClick={handleClick}>
               +
             </button>
+          </div>
+          <div className="bottom">
             <button
               className="btn lightgrey zero"
               type="button"
