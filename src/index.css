@@ -14,21 +14,13 @@ body {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
-
-.container {
-  width: 100%;
-  height: auto;
-  padding-top: 4rem;
+.container-div {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  transition: var(--all-transition);
+  grid-template-columns: 1fr 1fr;
 }
-
-@media (max-width: 768px) {
-  .container {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
+.container {
+background: lightgrey;
+height: 100vh;
 }
 
 .wrapper {
@@ -47,6 +39,21 @@ body {
   gap: 1rem;
   padding: 2px;
   margin-top: 1rem;
+}
+
+.math-info {
+  color: var(--dark-blue-shade);
+  margin-left: 1rem;
+  font-size: 1.375rem;
+}
+.div-header {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 1.333rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
 }
 
 .screen {
@@ -127,4 +134,41 @@ body {
   color: #000;
   text-transform: uppercase;
   font-size: 1rem;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: hsl(205, 74%, 60%);
+  align-items: center;
+  padding: 0.7rem;
+  color: hsl(205, 63%, 5%);
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  flex: 2;
+}
+
+.nav-link {
+  border-right: 1px solid hsl(205, 63%, 5%);
+  padding-right: 1rem;
+  height: 40px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color:#fff;
+
+}
+.quote-div {
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 1rem;
 }

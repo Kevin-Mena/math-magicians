@@ -24,15 +24,15 @@ const ShowRandomMathQuote = () => {
     fetchData();
   }, []);
   if (isLoading) {
-    return <h2>Loading data...</h2>;
+    return <p>Loading...</p>;
   }
   if (isError) {
-    return <h2>Oops!Something went wrong..!</h2>;
+    return <p>Oops!Something went wrong..!</p>;
   }
   const { quote, author } = data[0];
   return (
-    <div>
-      <h1 className="quote-header">random quote</h1>
+    <div className="quote-div">
+      <h1 className="quote-header">quote</h1>
       <p className="quote">
         &#34;
         {quote}

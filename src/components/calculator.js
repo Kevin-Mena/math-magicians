@@ -10,6 +10,14 @@ const CalculatorApp = () => {
   return (
     <div>
       <div className="container-div">
+        <div className="math-info">
+          <h2 className="info">Let&apos;s do some math!</h2>
+          <p>
+            Our basic calculator can handle all your basic arithmetic needs,
+            including addition, subtraction, multiplication, and division. It
+            also includes a modulus function.
+          </p>
+        </div>
         <div className="wrapper">
           <div className="screen">
             <DefaultValue result={result.next || result.total || '0'} />
