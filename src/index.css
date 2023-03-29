@@ -14,13 +14,15 @@ body {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
+
 .container-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+
 .container {
-background: lightgrey;
-height: 100vh;
+  background: lightgrey;
+  height: 100vh;
 }
 
 .wrapper {
@@ -46,6 +48,7 @@ height: 100vh;
   margin-left: 1rem;
   font-size: 1.375rem;
 }
+
 .div-header {
   width: 90%;
   margin: 0 auto;
@@ -162,9 +165,9 @@ height: 100vh;
   height: 40px;
   text-decoration: none;
   font-size: 1.5rem;
-  color:#fff;
-
+  color: #fff;
 }
+
 .quote-div {
   width: 50%;
   margin: 0 auto;
