@@ -52,7 +52,7 @@
 
 ## 🚀 Live Demo <a name="live-demo" ></a>
 
-- [https://6423dde508d39761d7c05b5c--quiet-cuchufli-7a43ed.netlify.app/]
+- [https://math-magicians-webapp.netlify.app/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
