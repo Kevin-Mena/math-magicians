@@ -36,6 +36,7 @@
 # 📖 [Math magicians] <a name="about-project"></a>
 
 \*\*[Math magicians] is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
@@ -52,7 +53,7 @@
 
 ## 🚀 Live Demo <a name="live-demo" ></a>
 
-- [https://6423dde508d39761d7c05b5c--quiet-cuchufli-7a43ed.netlify.app/]
+- [Live Demo](https://math-magicians-webapp.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -74,7 +75,7 @@ Example commands:
 ```sh
   cd <desired folder to contain project>
   git https://github.com/Kevin-Mena/math-magicians.git
-  cd javascript-capstone
+
 ```
 
 ### Install
@@ -100,7 +101,7 @@ npm start
 - On the terminal
 
 ```sh
-npm install --save-dev jest-environment-jsdom
+
 npm test
 ```
 
@@ -152,7 +153,5 @@ N/A
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./MIT.md) licensed.
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
